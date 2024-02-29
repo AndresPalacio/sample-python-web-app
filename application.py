@@ -100,5 +100,4 @@ def store_in_dynamo(signup_data):
 #         # create_table()
 
 if __name__ == '__main__':
-    init_db()
     application.run(host='0.0.0.0')
